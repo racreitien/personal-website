@@ -1,0 +1,191 @@
+body {
+    background-color:#e8dfe0;
+}
+
+h1 {
+    color: #555555;
+
+    text-align: center;
+    font-family: Helvetica;
+    margin: 0.5em 0.2em 0em 0.2em;
+    padding: 1em 0 1em 0;
+    
+    border-width: 0.125rem;
+    border-style: solid;
+}
+
+h3 {
+    color: #333333;
+    font: 20px Helvetica;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-element {
+    display: inline-block;
+    padding: 1em 1em 1em 1em;
+}
+
+.navbar-element a {
+    color: #555555;
+    font-family: Helvetica;
+    padding: 0.2em 0.8em 0.4em 0.4em;
+}
+
+.navbar-element a:hover {
+    text-decoration: none;
+    color: #fefefe;
+    background-color: #bab2b5;
+    cursor: crosshair;
+}
+
+/* NAVBAR */
+
+
+/* EVERY PAGE */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+
+    padding: 1em 5em 1em 5em;
+}
+
+.p-headings {
+    font-size: 30px;
+    color: #555555;
+    font-family: Helvetica;
+    font-weight: 150;
+
+    padding-bottom: 0.3em;
+}
+
+p {
+    color: #333333;
+    font: 18px "Playfair Display";
+    font-weight: 300;
+}
+
+a {
+    color:#7a7a7a;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.footer {
+    
+}
+
+/* EVERY PAGE */
+
+
+/* HOME PAGE */
+
+#home {
+    padding: 4em 10em 5em 10em;
+}
+
+#sparkle {
+    font-size: 35px;
+    color: #555555d5;
+}
+
+.toplines {
+    font-size: 35px;
+    color: #555555;
+    font-family: Helvetica;
+    font-weight: 150;
+}
+
+.toplines:hover {
+    color: white;
+    cursor: default;
+}
+
+.bottomlines {
+    color: #333333;
+    font: 18px "Playfair Display";
+    font-weight: 300;
+
+    margin-top: 1.5em;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+/* HOME PAGE */
+
+
+/* ABOUT PAGE */
+
+#pic {
+    padding: 0 45px 0 0;
+}
+
+/* ABOUT PAGE */
+
+
+/* PROJECT PAGE */
+
+.project {
+    padding-bottom: 0.7em;
+}
+
+.project p {
+    padding-left: 25px;
+}
+
+/* PROJECT PAGE */
+
+
+/* RESUME PAGE */
+
+#shortontime {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-weight: 100;
+    color: #555555;
+}
+
+.resume-sub {
+    padding-left: 25px;
+}
+
+.skills {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+/* RESUME PAGE */
+
+/* FOOTER FORMATTING */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
